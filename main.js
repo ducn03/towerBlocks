@@ -276,7 +276,7 @@ class Game {
     // Kiểm tra xem localStorage có chứa điểm cao nhất không
     this.highScore = localStorage.getItem("highScore")
       ? JSON.parse(localStorage.getItem("highScore"))
-      : { name: "No name", score: 0 };
+      : { name: "Ẩn danh", score: 0 };
     this.updateHighScore();
   }
   updateState(newState) {
